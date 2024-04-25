@@ -19,6 +19,17 @@ public class WelcomeController {
 		
 	}
 
+	@GetMapping("/java")
+	
+	
+	public String getWelcomeController1() {
+		
+		return "!!!!!!!!!!!!! Welcome from Java !!!!!!!!!!!!!!!!!!!";
+		
+		
+	}
+	
+	
 	
 	
 	
